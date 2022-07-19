@@ -11,23 +11,32 @@ header{
     padding: 0%;
     background-color: #83543A;
 }
-.header__logo{
+.logo{
     width: 38%;
     height: 38%;
 }
-.menu{
+.container-fluid{
     display: flex;
-    list-style: none;
     gap: 20px;
     text-align: center;
 }
-.menu li a{
+.collapse{
+    align-items: center;
+}
+navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
     text-decoration: none;
     font-size: 1.2em;
     color: white;
     text-transform: uppercase;
     font-family: 'Marcellus SC', serif;
 }
+
 /*BODY*/
 body{
     width: 100%;
