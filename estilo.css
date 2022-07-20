@@ -64,7 +64,14 @@ main{
 footer{
     background-color: #83543A ;
 }
-.redes__sociales{
+.redes__sociales a{
+    color:white;
+    font-size: 20px;
+    font-family: 'Marcellus SC', serif;
+    text-decoration: none;
+}
+
+.instagram{
     margin-left: 100px;
     position: absolute;
     color:white;
@@ -72,7 +79,6 @@ footer{
     gap: 50px;
     font-family: 'Marcellus SC', serif;
 }
-
 .whatsapp{
     display: flex;
     margin-right: 60px;
@@ -83,7 +89,7 @@ footer{
     gap: 10px;
     text-align: center;
 }
-.correo {
+.correo{
     display: flex;
     margin-right: 20px;
     justify-content: right;
@@ -92,10 +98,7 @@ footer{
     font-family: 'Marcellus SC', serif;
     gap:10px
 }
-a{
-    color: white;
-    text-decoration: none;
-}
+
 /*NOSOTROS*/
 .cuadro__nosotros{
     width: 300px;
@@ -122,6 +125,7 @@ a{
     margin-top: 20px;
     margin-bottom: 300px;
     border-radius: 10px;
+    align-items: right;
 }
 .info{
     color: #83543A;
@@ -130,6 +134,7 @@ a{
     border-radius: 10px;
     text-align: center;
 }
+
 /* PRODUCTOS */
 .cuadro__producto{
      width: 400px;
@@ -248,13 +253,22 @@ main{
     text-align: center;
 }
 /* CONTACTANOS */
+.grid__contacto{
+    display: grid;
+    grid-template-areas: 
+    ". . texto"
+    "texto . .";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 200px;
+}
 .form-register{
     width: 400px;
     background: #83543A;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-radius: 10px;
     font-family: 'Marcellus SC', serif;
 }
@@ -275,10 +289,11 @@ main{
     font-family: 'Marcellus SC', serif;
     font: size 20px; ;
 }
-.form-register p {
+.form-register {
     color: white;
     font-size: 20px;
     font-family: 'Marcellus SC', serif;
+    text-transform: uppercase;
 }
 .form-register .botons{
     text-align: center;
@@ -296,7 +311,7 @@ main{
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-radius: 10px;
     text-align: center;
 }
@@ -304,7 +319,7 @@ main{
     text-align: center;
     text-transform: uppercase;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Marcellus SC', serif;
 }
 .items{
@@ -322,7 +337,7 @@ main{
     padding: 30px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-radius: 10px;
 }
 .cuadro .titulo{
