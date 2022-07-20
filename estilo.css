@@ -52,8 +52,11 @@ main{
     font-weight: bold;
     font-size: 50px;
     font-family: 'Marcellus SC', serif;
+
 }
 .bienvenidos{
+    font-size: 80px;
+    font-family: 'Marcellus SC', serif;
     margin-top: 30%;
     margin-bottom: 50%;
 }
@@ -69,10 +72,7 @@ footer{
     gap: 50px;
     font-family: 'Marcellus SC', serif;
 }
-a{
-    color: white;
-    text-decoration: none;
-}
+
 .whatsapp{
     display: flex;
     margin-right: 60px;
@@ -83,7 +83,7 @@ a{
     gap: 10px;
     text-align: center;
 }
-.correo{
+.correo {
     display: flex;
     margin-right: 20px;
     justify-content: right;
@@ -91,6 +91,10 @@ a{
     font-size: 20px;
     font-family: 'Marcellus SC', serif;
     gap:10px
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 /*NOSOTROS*/
 .cuadro__nosotros{
@@ -330,7 +334,7 @@ main{
     font-family:'Marcellus SC', serif;
 }
 /* MEDIA QUERIE */
-@media screen and (max-width:480px){
+@media screen and (max-width:320px){
 /*INDEX*/   
     .header{
     width: 100%;
