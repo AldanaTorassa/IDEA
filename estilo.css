@@ -3,6 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 /*HEADER*/
 header{
     display: flex;
@@ -12,8 +15,8 @@ header{
     background-color: #83543A;
 }
 .logo{
-    width: 38%;
-    height: 38%;
+    width: 40%;
+    height: 40%;
 }
 .container-fluid{
     display: flex;
@@ -31,7 +34,7 @@ navbar-collapse {
 .nav-item{
     list-style: none;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: white;
     text-transform: uppercase;
     font-family: 'Marcellus SC', serif;

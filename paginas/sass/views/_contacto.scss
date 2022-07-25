@@ -1,0 +1,97 @@
+.grid__contacto{
+    display: grid;
+    grid-template-areas: 
+    ". . texto"
+    "texto . .";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 200px;
+}
+.form-register{
+    width: 400px;
+    background: $secundary;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font-family: $font-principal;
+    .mensaje{
+        text-align: center;
+        align-items: none;
+        color: $primary;
+        font-size: $medium;
+        font-family: 'Marcellus SC', serif;
+    }
+    .controls{
+        width: 100%;
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        border: 1px;
+        font-family: 'Marcellus SC', serif;
+        font-size:  $medium ;
+    }
+}
+
+.form-register {
+    color: $primary;
+    font-size: $medium;
+    font-family: $font-principal;
+    text-transform: uppercase;
+    .form-register .botons{
+        text-align: center;
+        background: $primary;
+        border-radius: 5px;
+        border-color: $primary;
+        border-bottom: $primary;
+        color: $secundary;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+.cuadro__contactanos{
+    width: 400px;
+    background: $secundary;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    .contactanos{
+        text-align: center;
+        text-transform: uppercase;
+        color: $primary;
+        font-size: 25px;
+        font-family: $font-principal;
+    }
+    .items{
+        margin-top: 10px;
+        color: $primary;
+        font-size:$medium;
+        text-align: center;
+        padding: 10px;
+        list-style: none;
+    }
+}
+.cuadro{
+    width: 300px;
+    height: 100px;
+    background: $secundary;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    .cuadro .titulo{
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: $medium;
+        margin: auto;
+        font-family: $font-principal;
+    }
+}
