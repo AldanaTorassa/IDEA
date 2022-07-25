@@ -385,7 +385,7 @@ main{
         grid-template-columns: repeat(1,1fr);
     }
     .cuadro__producto{
-    width: 200px;
+    width: 100px;
     height: 50px;
     }
     .titulo{
@@ -394,14 +394,14 @@ main{
     }
 /*NOSOTROS*/
 .cuadro__nosotros{
-    width: 200px;
+    width: 100px;
     height: 50px;
 }
 .titulo__nosotros{
     font-size: 15px;
 }
 .cuadro__info{
-    width: 400px;
+    width: 200px;
     margin-bottom: 100px;
 }
 .info{
