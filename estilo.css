@@ -26,7 +26,7 @@ header{
 .collapse{
     align-items: center;
 }
-navbar-collapse {
+.navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
     align-items: center;
@@ -67,13 +67,19 @@ main{
 footer{
     background-color: #83543A ;
 }
-.redes__sociales a{
-    color:white;
+.redes__sociales{
+    text-align: center;
+    text-decoration: none;
+    color: white;
     font-size: 20px;
     font-family: 'Marcellus SC', serif;
+}
+.i{
     text-decoration: none;
+    color: white;
 }
 
+/* 
 .instagram{
     margin-left: 100px;
     position: absolute;
@@ -100,7 +106,7 @@ footer{
     font-size: 20px;
     font-family: 'Marcellus SC', serif;
     gap:10px
-}
+} */
 
 /*NOSOTROS*/
 .cuadro__nosotros{
@@ -371,34 +377,16 @@ main{
     }
     .bienvenidos{
         font-size: 25px;
-        width: 400px;
+        width: 600px;
         text-align: center;
-    }
-    .redes__sociales{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        font-size: 5px;
-        text-align: center;
-    }
-    .whatsapp{
-        font-size: 5px;
-        text-align: right;
-    }
-    .correo {
-        font-size: 5px;
-        text-align: right;
-    }
-    a{
-        font-size: 5px;
     }
 /*PRODUCTOS*/  
 .cuadro__producto{
     width: 250px;
-    height: 50px;
+    height: 100px;
     }
     .titulo{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     }  
     .cards{
@@ -407,17 +395,16 @@ main{
         grid-template-columns: repeat(1,1fr);
         grid-row: repeat(1,1fr);
     }
-    .box{
-        width: 50%;
-        align-content: center;
+    .box__title{
+       text-align: center;
     }
 /*NOSOTROS*/
 .cuadro__nosotros{
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 100px;
 }
 .titulo__nosotros{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
 }
 .cuadro__info{
@@ -426,36 +413,36 @@ main{
 }
 .info{
     width: 300px;
-    font-size: 10px;
+    font-size: 20px;
 }
 /*NUEZ PECAN*/    
     .cuadro__nuez{
-    width: 150px;
-    height: 50px;
+    width: 250px;
+    height: 100px;
     }
     .titulo__nuez{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     }
     .cuadro__cultivo{
-    width: 300px;
+    width: 350px;
     margin-top: 5px;
     }
     .el__cultivo{
-    font-size: 15px;
+    font-size: 20px;
     }
    .info__cultivo{
-    width: 250px;
+    width: 300px;
     font-size: 10px;
     }
    .caracteristicas{
-    font-size: 15px;
+    font-size: 20px;
     }
    .cuadro__caracteristicas{
-    width: 300px;
+    width: 350px;
     }
     .info__nuez{
-    width: 250px;
+    width: 300px;
     font-size: 10px;
     }
  /*CONTACTANOS*/ 
@@ -472,26 +459,25 @@ main{
         font-size: 10px;
     }
     .form-register{
-    width: 250px;
+    width: 350px;
     text-align: center;
     }
     .botons{
         font-size: 10px;
     }
     .mensaje{
-    font-size: 10px;
+    font-size: 20px;
     }
     .form-register p{
-    font-size: 10px;
-    orientation: auto;
+    font-size: 20px;
     }
     .cuadro__contactanos{
-    width: 250px;
+    width: 350px;
     }
     .contactanos{
     font-size: 20px;
     }
     .items{
-    font-size: 10px;
+    font-size: 15px;
     }
 }
