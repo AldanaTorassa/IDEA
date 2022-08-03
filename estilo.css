@@ -72,42 +72,12 @@ footer{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    font-family: 'Marcellus SC', serif;
+    font-family:'Marcellus SC', serif;
 }
-.i{
+.p{
     text-decoration: none;
     color: white;
 }
-
-/* 
-.instagram{
-    margin-left: 100px;
-    position: absolute;
-    color:white;
-    font-size: 20px;
-    gap: 50px;
-    font-family: 'Marcellus SC', serif;
-}
-.whatsapp{
-    display: flex;
-    margin-right: 60px;
-    justify-content: right;
-    color: white;
-    font-size: 20px ;
-    font-family: 'Marcellus SC', serif;
-    gap: 10px;
-    text-align: center;
-}
-.correo{
-    display: flex;
-    margin-right: 20px;
-    justify-content: right;
-    color: white;
-    font-size: 20px;
-    font-family: 'Marcellus SC', serif;
-    gap:10px
-} */
-
 /*NOSOTROS*/
 .cuadro__nosotros{
     width: 300px;
